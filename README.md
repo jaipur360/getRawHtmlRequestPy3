@@ -1,15 +1,22 @@
 # getRawHtmlRequestPy3
-Python Requests usage to generate random user agent and cookies\n
+Python Requests usage to generate random user agent and cookies
 
-# ### Usage \n
+# ### Usage
 
-from getRawHtmlRequestPy3 import getRawHtmlRequestPy3\n
+from getRawHtmlRequestPy3 import getRawHtmlRequestPy3
+
 page = 'https://api.ipify.org/?format=json'
-obj = getRawHtmlRequestPy3(page)\n
 
-# Print Results\n
-print(obj.getPageResponseRawHtml())\n
-print(obj.getPageResponseHeader())\n
-print(obj.getPageResponseHeaderDate())\n
-print(obj.getPageResponseStatusCode())\n
-print(obj.getSomeException())\n
+obj = getRawHtmlRequestPy3(page)
+
+# Print Results
+
+print(obj.getPageResponseRawHtml())
+
+print(obj.getPageResponseHeader())
+
+print(obj.getPageResponseHeaderDate())
+
+print(obj.getPageResponseStatusCode())
+
+print(obj.getSomeException())
